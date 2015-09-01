@@ -1,10 +1,195 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <meta charset="UTF-8">
-  <title>Example</title>
-</head>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>davidjavier | Graphic Designer</title>
+<!--jQuery-->
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+
+<!-- Compiled and minified CSS -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.0/css/materialize.min.css">
+
+<!-- Compiled and minified JavaScript -->
+  <script src="js/materialize.js"></script>
+
+<!-- Font Awesome -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+
+<!--Icon Materialize-->
+   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+<!--<script src="css/reset.css"></script>-->
+
+<!--My Css and Javascript-->
+   <link rel="stylesheet" href="css/main.css">
+   <script src="js/main.js"></script>
+  </head>
 <body>
 
-</body>
-</html>
+<!--Start Menu Desktop-->
+<ul class="side-nav menu-desktop fixed z-depth-4">
+  <div class="container-logo"><a href="#home-section"><img src="img/davidjavier-logo.png"></a></div>
+  <div class="divider line-divider-menu-2"></div>
+    <li><a href="#about-section" class="waves-effect Default nav-link">ABOUT</a></li>
+    <div class="divider line-divider-menu"></div>
+    <li><a href="#timeline-section" class="waves-effect Default nav-link">TIMELINE</a></li>
+    <div class="divider line-divider-menu"></div>
+    <li><a href="#portfolio-section" class="waves-effect Default nav-link">PORTFOLIO</a></li>
+    <div class="divider line-divider-menu"></div>
+    <li><a href="#contact-section" class="waves-effect Default nav-link">CONTACT</a></li>
+    <div class="divider line-divider-menu"></div>
+</ul> <!--End Menu Desktop-->
+
+<nav class="menu-mobile"> <!--Start Menu Mobile-->
+  <a href="#" data-activates="nav-mobile" class="button-collapse">
+    <i class="mdi-navigation-menu"></i>
+  </a>
+  <ul id="nav-mobile" class="side-nav my-nav">
+    <div class="container-logo"><a href="#home-section"><img src=""></a></div>
+    <div class="divider line-divider-menu"></div>
+    <li><a href="#about-section"><i class="small mdi-action-account-box"></i></a></li>
+    <div class="divider line-divider-menu"></div>
+    <li><a href="#timeline-section"><i class="small mdi-device-access-time"></i></a></li>
+    <div class="divider line-divider-menu"></div>
+    <li><a href="#portfolio-section"><i class="small mdi-action-dashboard"></i></a></li>
+    <div class="divider line-divider-menu"></div>
+    <li><a href="#contact-section"><i class="small mdi-content-drafts"></i></a></li>
+    <div class="divider line-divider-menu"></div>
+  </ul>
+
+<!--  <div class="container-logo"><a href="#home-section"><img src="img/davidjavier-logo.png"></a></div>
+  <div class="divider line-divider-menu"></div>
+  <li><a href="#about-section" class="waves-effect Default nav-link">ABOUT</a></li>
+  <div class="divider line-divider-menu"></div>
+  <li><a href="#timeline-section" class="waves-effect Default nav-link">TIMELINE</a></li>
+  <div class="divider line-divider-menu"></div>
+  <li><a href="#portfolio-section" class="waves-effect Default nav-link">PORTFOLIO</a></li>
+  <div class="divider line-divider-menu"></div>
+  <li><a href="#contact-section" class="waves-effect Default nav-link">CONTACT</a></li>
+  <div class="divider line-divider-menu"></div>-->
+</nav> <!--End Menu Mobile-->
+
+<div id="big-content" class="content scrollspy"> <!--Start Big Content-->
+
+<!-- Start Home Section -->
+<div id="home-section" class="section-container scrollspy">
+  <div class="row title-section">
+    <div class="col s12"><h1 class="text-title-section">Home</h1>
+    </div>
+  </div>
+    <div class="col s12">
+      <a class="floating-absolute btn-floating btn-medium waves-effect waves-light grey" href="#big-content"><i class="mdi-navigation-expand-less">add</i></a>
+    </div>
+    <div class="row">
+      <div class="col s12">
+        <h1>prueba</h1>
+        <h1>prueba</h1>
+        <h1>prueba</h1>
+        <h1>prueba</h1>
+        <h1>prueba</h1>
+        <h1>prueba</h1>
+      </div>
+    </div>
+</div> <!-- End Home Section -->
+
+<!-- Start About Section -->
+<div id="about-section" class="section-container scrollspy">
+  <div class="row title-section">
+      <div class="col s12"><h1 class="text-title-section">About</h1>
+      </div>
+  </div>
+  <div class="row">
+    <div class="col s12">
+      <h1>prueba</h1>
+      <h1>prueba</h1>
+      <h1>prueba</h1>
+      <h1>prueba</h1>
+      <h1>prueba</h1>
+      <h1>prueba</h1>
+    </div>
+  </div>
+</div> <!-- End About Section -->
+
+<!-- Start Timeline Section -->
+<div id="timeline-section" class="section-container scrollspy">
+  <div class="row title-section">
+    <div class="col s12"><h1 class="text-title-section">Timeline</h1></div>
+  </div>
+  <div class="row">
+    <div class="col s12">
+      <h1>prueba</h1>
+      <h1>prueba</h1>
+      <h1>prueba</h1>
+      <h1>prueba</h1>
+      <h1>prueba</h1>
+      <h1>prueba</h1>
+    </div>
+  </div>
+</div> <!-- End Timeline Section -->
+
+<!-- Start Portfolio Section -->
+<div id="portfolio-section" class="section-container scrollspy">
+  <div class="row title-section">
+    <div class="col s12"><h1 class="text-title-section">Portfolio</h1></div>
+  </div>
+  <div class="row">
+    <div class="col s12">
+      <h1>prueba</h1>
+      <h1>prueba</h1>
+      <h1>prueba</h1>
+      <h1>prueba</h1>
+      <h1>prueba</h1>
+      <h1>prueba</h1>
+    </div>
+  </div>
+</div> <!-- End Portfolio Section -->
+
+<!-- Start Contact Section -->
+<div id="contact-section" class="section-container scrollspy">
+  <div class="row title-section">
+    <div class="col s12"><h1 class="text-title-section">Contact</h1></div>
+  </div>
+  <div class="row">
+    <div class="col s12">
+      <h1>prueba</h1>
+      <h1>prueba</h1>
+      <h1>prueba</h1>
+      <h1>prueba</h1>
+      <h1>prueba</h1>
+      <h1>prueba</h1>
+    </div>
+  </div>
+</div> <!-- End Contact Section -->
+
+<!-- Start Footer-->
+<footer class="page-footer">
+   <div class="container">
+      <div class="row my-margin-bottom">
+        <div class="col s12 footer-col-1 my-text-align">
+          <ul>
+            <li><a href="#about-section">ABOUT</a></li>
+            <li><a href="#timeline-section">TIMELINE</a></li>
+            <li><a href="#home-section">HOME</a></li>
+            <li><a href="#portfolio-section">PORTFOLIO</a></li>
+            <li><a href="#contact-section">CONTACT</a></li>
+          </ul>
+        </div>
+        <div class="col s12 footer-col-2 my-text-align">
+          <ul>
+            <li><a href="https://www.facebook.com/david.hernandezgordon"><i class="icon-style fa fa-facebook-square fa-2x"></i></a></li>
+            <li><a href=""><i class="fa fa-behance-square fa-2x"></i></a></li>
+            <li><a href=""><i class="fa fa-github-alt fa-2x"></i></a></li>
+            <li><a href=""><i class="fa fa-linkedin-square fa-2x"></i></a></li>
+          </ul>
+          <div class="col s12 copyright">
+            <p>&#9400; 2015 davidjavier</p>
+          </div>
+        </div>
+    </div>
+  </div>
+</footer> <!-- End Footer-->
+
+</div> <!--End Big Content-->
+  </body>
+  </html>

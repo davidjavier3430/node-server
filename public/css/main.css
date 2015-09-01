@@ -1,0 +1,135 @@
+/*------------- Reset --------------------- */
+h1, h2, h3, h4, h5, p, ul {
+  margin: 0px;
+}
+
+/*------------- Big Content --------------------- */
+.content {
+  padding-left: 240px;
+  margin-bottom: 0px;
+}
+
+@media only screen and (max-width : 992px) {
+  .content {
+    padding-left: 0;
+  }
+}
+
+.container-logo {
+  min-height: 150px;
+  background-color: #00BCD4;
+}
+
+.container-logo img {
+  margin-top: 50px;
+}
+
+.section-container {
+  background-color: #bdbdbd;
+  margin: 0;
+}
+
+.title-section {
+  margin-bottom: 0px;
+  min-height: 150px;
+  background-color: #00BCD4;
+}
+
+.text-title-section {
+  margin-left: 80px;
+  margin-top: 35px;
+}
+
+.my-text-align {
+  text-align: center;
+}
+
+.my-margin-bottom {
+  margin-bottom: 0px;
+}
+
+.floating-absolute {
+  position: fixed;
+  right: 25px;
+  top: 400px;
+}
+
+/*------------- Menu Desktop --------------------- */
+.menu-desktop {
+  background-color: #fafafa;
+} a {
+  color: #212121;
+  padding-left: 30px;
+} a:hover {
+  color: #00BCD4;
+}
+
+.menu-desktop li {
+  padding: 0px;
+}
+
+.line-divider-menu {
+  background-color: #B6B6B6;
+}
+
+.line-divider-menu-2 {
+  background-color: #0097A7;
+  height: 3px;
+}
+
+.underline {
+  border-right: 10px solid #bdbdbd;
+}
+
+/*------------- Menu Mobile --------------------- */
+.menu-mobile {
+  display: none;
+}
+
+.my-nav {
+  width: 90px;
+}
+
+.mdi-navigation-menu {
+  color: #eceff1;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 991px) {
+  .menu-mobile {
+    display: inherit;
+    background-color: #ee6e73;
+  }
+}
+
+/*------------- Footer --------------------- */
+footer.page-footer {
+  margin-top: 0px;
+  padding: 20px 0 20px 0;
+  background-color: #B2EBF2;
+}
+
+.footer-col-1 li {
+  display: inline-block;
+  vertical-align: middle;
+  padding: 0 10px 20px 10px;
+  } a {
+  color: #727272;
+  } a:hover{
+  color: #B6B6B6;
+}
+
+.footer-col-2 li {
+  display: inline-block;
+  vertical-align: middle;
+  padding: 0 6px 20px 6px;
+}
+
+@media only screen and (max-width : 992px) {
+  .footer-col-1 li {
+    display: list-item;
+  }
+}
+
+.copyright {
+  color: #727272;
+}
