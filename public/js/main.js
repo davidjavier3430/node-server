@@ -11,13 +11,26 @@ $(document).ready(function(){       // menu mobile
 
   $('.scrollspy').scrollSpy();
 
-  $(document).ready(function() {
-    /*this is where you put your event listeners*/
+  // this is where you put your event listeners
 
-    $('.nav-link').click(function() {
-      activeLink($(this));
-    });
+  $('.nav-link').click(function() {
+    activeLink($(this));
+  });
 
+  $(window).resize(function() {
+    watchHeight();
+    watchWidth();
   });
 
 });
+
+
+function watchHeight() {
+  var height = $("body").innerHeight();
+  console.log("current home-section height: ", height);
+}
+
+function watchWidth() {
+  var width = $("body").innerWidth();
+  console.log("current home-section width: ", width);
+}

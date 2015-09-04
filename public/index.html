@@ -46,7 +46,7 @@
     <i class="mdi-navigation-menu"></i>
   </a>
   <ul id="nav-mobile" class="side-nav my-nav">
-    <div class="container-logo"><a href="#home-section"><img src=""></a></div>
+    <li><a href="#home-section"><i class="small mdi-action-home"></i></a></li>
     <div class="divider line-divider-menu"></div>
     <li><a href="#about-section"><i class="small mdi-action-account-box"></i></a></li>
     <div class="divider line-divider-menu"></div>
@@ -58,38 +58,16 @@
     <div class="divider line-divider-menu"></div>
   </ul>
 
-<!--  <div class="container-logo"><a href="#home-section"><img src="img/davidjavier-logo.png"></a></div>
-  <div class="divider line-divider-menu"></div>
-  <li><a href="#about-section" class="waves-effect Default nav-link">ABOUT</a></li>
-  <div class="divider line-divider-menu"></div>
-  <li><a href="#timeline-section" class="waves-effect Default nav-link">TIMELINE</a></li>
-  <div class="divider line-divider-menu"></div>
-  <li><a href="#portfolio-section" class="waves-effect Default nav-link">PORTFOLIO</a></li>
-  <div class="divider line-divider-menu"></div>
-  <li><a href="#contact-section" class="waves-effect Default nav-link">CONTACT</a></li>
-  <div class="divider line-divider-menu"></div>-->
 </nav> <!--End Menu Mobile-->
 
 <div id="big-content" class="content scrollspy"> <!--Start Big Content-->
 
 <!-- Start Home Section -->
 <div id="home-section" class="section-container scrollspy">
-  <div class="row title-section">
-    <div class="col s12"><h1 class="text-title-section">Home</h1>
-    </div>
-  </div>
-    <div class="col s12">
-      <a class="floating-absolute btn-floating btn-medium waves-effect waves-light grey" href="#big-content"><i class="mdi-navigation-expand-less">add</i></a>
-    </div>
     <div class="row">
       <div class="col s12">
-        <h1>prueba</h1>
-        <h1>prueba</h1>
-        <h1>prueba</h1>
-        <h1>prueba</h1>
-        <h1>prueba</h1>
-        <h1>prueba</h1>
       </div>
+      <a class="floating-absolute btn-floating btn-large waves-effect waves-light grey" href="#about-section"><i class="mdi-navigation-expand-more">add</i></a>
     </div>
 </div> <!-- End Home Section -->
 
@@ -101,12 +79,6 @@
   </div>
   <div class="row">
     <div class="col s12">
-      <h1>prueba</h1>
-      <h1>prueba</h1>
-      <h1>prueba</h1>
-      <h1>prueba</h1>
-      <h1>prueba</h1>
-      <h1>prueba</h1>
     </div>
   </div>
 </div> <!-- End About Section -->
@@ -130,19 +102,101 @@
 
 <!-- Start Portfolio Section -->
 <div id="portfolio-section" class="section-container scrollspy">
-  <div class="row title-section">
-    <div class="col s12"><h1 class="text-title-section">Portfolio</h1></div>
-  </div>
-  <div class="row">
-    <div class="col s12">
-      <h1>prueba</h1>
-      <h1>prueba</h1>
-      <h1>prueba</h1>
-      <h1>prueba</h1>
-      <h1>prueba</h1>
-      <h1>prueba</h1>
+    <div class="row title-section">
+      <div class="col s12"><h1 class="text-title-section">Portfolio</h1></div>
     </div>
-  </div>
+
+  <div class="row"> <!--Start row Recent Project-->
+    <div class="col s12 margin-1">
+      <h5>Recent Project</h5>
+      <div class="divider line-divider-menu"></div>
+    </div>
+
+    <div class="post col s5 m5">
+      <div class="card">
+        <div class="card-image waves-effect waves-block waves-light">
+          <img class"activator" src="">
+        </div>
+        <div class="card-content">
+          <span class="card-title activator grey-text text-darken-4">Card Title<i class="material-icons right">more_vert</i></span>
+          <p><a href="#">This is a link</a></p>
+        </div>
+        <div class="card-reveal">
+          <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
+          <p>Here is some more information about this product that is only revealed once clicked on.</p>
+        </div>
+      </div>
+    </div>
+    <div class="post col s7 m7">
+      <div class="card">
+        <div class="card-image waves-effect waves-block waves-light">
+          <img class"activator" src="img/faqs_1.jpg">
+        </div>
+        <div class="card-content">
+          <span class="card-title activator grey-text text-darken-4">Card Title<i class="material-icons right">more_vert</i></span>
+          <p><a href="#">This is a link</a></p>
+        </div>
+        <div class="card-reveal">
+          <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
+          <p>Here is some more information about this product that is only revealed once clicked on.</p>
+        </div>
+      </div>
+    </div>
+  </div> <!--End row Recent Project-->
+
+    <div class="row"> <!-- Start Row Others Project -->
+      <div class="col s12 margin-1">
+        <h5>Others Project</h5>
+        <div class="divider line-divider-menu"></div>
+      </div>
+
+      <div class="post col s6 m4">
+        <div class="card">
+          <div class="card-image waves-effect waves-block waves-light">
+            <img class"activator" src="img/betances_1.jpg">
+          </div>
+          <div class="card-content">
+            <span class="card-title activator grey-text text-darken-4">Betances Award<i class="material-icons right">subject</i></span>
+            <p><a href="#">This is a link</a></p>
+          </div>
+          <div class="card-reveal">
+            <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
+            <p>Here is some more information about this product that is only revealed once clicked on.</p>
+          </div>
+        </div>
+      </div>
+      <div class="post col s6 m4">
+        <div class="card">
+          <div class="card-image waves-effect waves-block waves-light">
+            <img class"activator" src="img/paul_renner_1.jpg">
+          </div>
+          <div class="card-content">
+            <span class="card-title activator grey-text text-darken-4">Paul Renner Poster<i class="material-icons right">subject</i></span>
+            <p><a href="#">This is a link</a></p>
+          </div>
+          <div class="card-reveal">
+            <span class="card-title grey-text text-darken-4">Paul Renner Poster<i class="material-icons right">close</i></span>
+            <p>Here is some more information about this product that is only revealed once clicked on.</p>
+          </div>
+        </div>
+      </div>
+      <div class="post col s6 m4">
+        <div class="card">
+          <div class="card-image waves-effect waves-block waves-light">
+            <img class"activator" src="img/steve_jobs_1.jpg">
+          </div>
+          <div class="card-content">
+            <span class="card-title activator grey-text text-darken-4">Steve Jobs Poster<i class="material-icons right">subject</i></span>
+            <p><a href="#">This is a link</a></p>
+          </div>
+          <div class="card-reveal">
+            <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
+            <p>Here is some more information about this product that is only revealed once clicked on.</p>
+          </div>
+        </div>
+      </div>
+  </div> <!-- End Row Others Project -->
+
 </div> <!-- End Portfolio Section -->
 
 <!-- Start Contact Section -->
@@ -182,7 +236,7 @@
             <li><a href=""><i class="fa fa-github-alt fa-2x"></i></a></li>
             <li><a href=""><i class="fa fa-linkedin-square fa-2x"></i></a></li>
           </ul>
-          <div class="col s12 copyright">
+          <div class="col s12 my-copyright">
             <p>&#9400; 2015 davidjavier</p>
           </div>
         </div>
@@ -193,3 +247,6 @@
 </div> <!--End Big Content-->
   </body>
   </html>
+
+
+<!--<a class="floating-absolute btn-floating btn-medium waves-effect waves-light grey" href="#big-content"><i class="mdi-navigation-expand-less">add</i></a>-->
