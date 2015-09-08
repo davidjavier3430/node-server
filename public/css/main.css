@@ -1,6 +1,8 @@
 @import url(https://fonts.googleapis.com/css?family=Lato:400,300italic,300,400italic,700,700italic,900,900italic);
 @import url(https://fonts.googleapis.com/css?family=Raleway:500,600,700,800);
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
 
+/*---- Paragraph project ---*/
 .lato-1 {
   font-family: "lato";
   font-weight: 400;
@@ -8,12 +10,39 @@
   font-size: 14px;
 }
 
+/*--- Sub Header Sections ---*/
 .lato-2 {
   font-family: "lato";
   font-weight: 300;
   color: #00BCD4;
 }
 
+/*--- Font for navlink, footer ---*/
+.lato-3 {
+  font-family: "lato";
+  font-weight: 500;
+}
+
+/*--- Header Sections ---*/
+.lato-4 {
+  font-family: "lato";
+  font-weight: 600;
+  color: white;
+}
+
+.lato-5 {
+  font-family: "lato";
+  font-weight: 700;
+  color: #727272;
+}
+
+.lato-6 {
+  font-family: "lato";
+  font-weight: 400;
+  color: #727272;
+}
+
+/*--- Project Title inside content-card ---*/
 .rale-1 {
   font-family: "raleway";
   font-weight: 800;
@@ -22,14 +51,18 @@
 }
 
 .rale-2 {
-  font-family: "lato";
+  font-family: "raleway";
   font-weight: 600;
-  color: white;
+  color: #727272;
+  font-size: 18px;
 }
 
-.rale-3 {
-  font-family: "lato";
-  font-weight: 500;
+/*--- Numbers Timeline Section ---*/
+.monse-1 {
+  font-family: "Montserrat";
+  font-weight: 700;
+  font-size: 40px;
+  color: #ef5350;
 }
 
 /*------------- Reset --------------------- */
@@ -109,10 +142,35 @@ h1, h2, h3, h4, h5, p, ul {
     margin: 20px 0 0 0;
     text-align: center;
   }
+  .lato-2 {
+    text-align: center;
+}
+
+.monse-1 {
+  text-align: center;
+ }
 }
 
 #home-section {
   background-image: url("../img/patron.png");
+}
+
+/*------------- Timeline ------------------------------*/
+.icon-timeline i {
+  margin-right: 5px;
+  color: #00BCD4;
+}
+
+.icon-timeline li {
+  margin-top: 5px;
+  margin-right: 5px;
+  display: inline-block;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 991px) {
+  .icon-timeline {
+    text-align: center;
+  }
 }
 /*------------- Portfolio Section --------------------- */
 .margin-1 {
@@ -193,7 +251,7 @@ h1, h2, h3, h4, h5, p, ul {
 @media only screen and (min-width: 320px) and (max-width: 991px) {
   .menu-mobile {
     display: inherit;
-    background-color: #ee6e73;
+    background-color: #B2EBF2;
   }
 }
 /*------------- Contact --------------------- */
@@ -203,12 +261,12 @@ h1, h2, h3, h4, h5, p, ul {
 }
 
 .contact-buttom a:hover {
-  color: #B2EBF2;;
+  color: #B2EBF2;
 }
 
 /* label color */
 .input-field label {
-  color: #B2EBF2;
+  color: #00BCD4;
 }
 
 /* label focus color */
