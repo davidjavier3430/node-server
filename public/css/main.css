@@ -38,7 +38,7 @@
 
 .lato-6 {
   font-family: "lato";
-  font-weight: 400;
+  font-weight: 600;
   color: #727272;
 }
 
@@ -62,7 +62,13 @@
   font-family: "Montserrat";
   font-weight: 700;
   font-size: 40px;
-  color: #ef5350;
+  color: #727272;
+}
+
+.monse-2 {
+  font-family: "Montserrat";
+  font-weight: 700;
+  color: #00BCD4;
 }
 
 /*------------- Reset --------------------- */
@@ -97,7 +103,7 @@ h1, h2, h3, h4, h5, p, ul {
 }
 
 .section-container-2 {
-  background-color: #FFFFFF;
+  /*background-image: url("/img/image-home-color.jpg");*/
   margin: 0;
   height: 710px;
 }
@@ -119,6 +125,10 @@ h1, h2, h3, h4, h5, p, ul {
 
 .my-margin-bottom {
   margin-bottom: 0px;
+}
+
+.my-padding {
+  padding-left: 0px;
 }
 
 .floating-absolute {
@@ -152,9 +162,13 @@ h1, h2, h3, h4, h5, p, ul {
 }
 
 #home-section {
-  background-image: url("../img/patron.png");
 }
-
+/*------------- About ---------------------------------*/
+.bio-1 p {
+  text-align: justify;
+  text-justify: auto;
+  font-size: 14px;
+}
 /*------------- Timeline ------------------------------*/
 .icon-timeline i {
   margin-right: 5px;
@@ -196,13 +210,19 @@ h1, h2, h3, h4, h5, p, ul {
     display: none;
   }
 }
+
+/*------------- Modal --------------------- */
+.modal {
+  background-color: black;
+}
+
 /*------------- Menu Desktop --------------------- */
 .menu-desktop {
   background-color: #fafafa;
 }
 
 .menu-desktop a {
-  color: #212121;
+  color: #727272;
   padding-left: 30px;
 }
 
@@ -302,7 +322,7 @@ h1, h2, h3, h4, h5, p, ul {
 }
 
  .my-form {
-   margin: 50px 0;
+   margin: 40px 0;
  }
 
 textarea.materialize-textarea:focus:not([readonly]) {

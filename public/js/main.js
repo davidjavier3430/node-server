@@ -9,7 +9,20 @@ $(document).ready(function(){       // menu mobile
   $(".slider").slider({full_width: true});
   $(".parallax").parallax();
 
+  $('.modal-trigger').leanModal({
+    dismissible: true, // Modal can be dismissed by clicking outside of the modal
+    opacity: .5, // Opacity of modal background
+    in_duration: 300, // Transition in duration
+    out_duration: 200, // Transition out duration
+  });
+
+  $('.materialboxed').materialbox();
+
   $('.scrollspy').scrollSpy();
+
+  $('.collapsible').collapsible({
+      accordion : false // A setting that changes the collapsible behavior to expandable instead of the default accordion style
+    });
 
   // this is where you put your event listeners
 
