@@ -94,7 +94,7 @@ h1, h2, h3, h4, h5, p, ul {
 }
 
 .container-logo img {
-  margin-top: 50px;
+  margin-top: 55px;
 }
 
 .section-container {
@@ -105,7 +105,7 @@ h1, h2, h3, h4, h5, p, ul {
 .section-container-2 {
   /*background-image: url("/img/image-home-color.jpg");*/
   margin: 0;
-  height: 710px;
+  height: 740px;
 }
 
 .title-section {
@@ -127,8 +127,9 @@ h1, h2, h3, h4, h5, p, ul {
   margin-bottom: 0px;
 }
 
-.my-padding {
-  padding-left: 0px;
+.my-margin-2 {
+  margin-top: 3px;
+  margin-bottom: 3px;
 }
 
 .floating-absolute {
@@ -162,12 +163,17 @@ h1, h2, h3, h4, h5, p, ul {
 }
 
 #home-section {
+  background-image: url("../img/pattern-home.png");
 }
 /*------------- About ---------------------------------*/
 .bio-1 p {
   text-align: justify;
   text-justify: auto;
   font-size: 14px;
+}
+
+.img-margin-1 {
+margin-top: 20px;
 }
 /*------------- Timeline ------------------------------*/
 .icon-timeline i {
@@ -238,6 +244,11 @@ h1, h2, h3, h4, h5, p, ul {
   background-color: #B6B6B6;
 }
 
+.line-divider-menu-3 {
+  background-color: #B6B6B6;
+  margin-bottom: 8px;
+}
+
 .line-divider-menu-2 {
   background-color: #0097A7;
   height: 3px;
@@ -250,6 +261,10 @@ h1, h2, h3, h4, h5, p, ul {
 /*------------- Menu Mobile --------------------- */
 .menu-mobile {
   display: none;
+}
+
+.menu-mobile i {
+  color: #727272;
 }
 
 .my-nav {
