@@ -71,6 +71,18 @@
   color: #00BCD4;
 }
 
+.monse-3 {
+  font-family: "Montserrat";
+  font-weight: 700;
+  color: #00BCD4;
+}
+
+.monse-4 {
+  font-family: "Montserrat";
+  font-weight: 400;
+  color: #00BCD4;
+}
+
 /*------------- Reset --------------------- */
 h1, h2, h3, h4, h5, p, ul {
   margin: 0px;
@@ -103,7 +115,6 @@ h1, h2, h3, h4, h5, p, ul {
 }
 
 .section-container-2 {
-  /*background-image: url("/img/image-home-color.jpg");*/
   margin: 0;
   height: 740px;
 }
@@ -162,9 +173,62 @@ h1, h2, h3, h4, h5, p, ul {
  }
 }
 
+/*------------- Home ---------------------------------*/
 #home-section {
-  background-image: url("../img/pattern-home.png");
+  background-image: url("../img/pattern-home-3.png");
 }
+
+.home-white-content {
+  background: white;
+  opacity: 0.9;
+  margin: 100px 0 0 0;
+  height: 500px;
+}
+
+.home-white-content li {
+  list-style: none;
+}
+
+.my-h1-home {
+  margin-top: -25px;
+  font-size: 130px;
+}
+
+.my-h4-home {
+  color: #727272;
+  font-size: 35px;
+}
+
+.col-img-home {
+  padding: 0 11.25px 0 11.25px;
+  margin-top: 60px;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+  .my-h1-home {
+    margin-top: -5px;
+    font-size: 50px;
+    text-align: center;
+  } .my-h4-home {
+    color: #727272;
+    font-size: 35px;
+    text-align: center;
+  } .col-img-home {
+    padding: 0;
+    margin-top: 50px;
+    text-align: center;
+  } .home-white-content {
+    background: white;
+    opacity: 0.9;
+    margin: 0;
+    height: 500px;
+  } .section-container-2 {
+    margin: 0;
+    height: 650px;
+  }
+
+}
+
 /*------------- About ---------------------------------*/
 .bio-1 p {
   text-align: justify;
